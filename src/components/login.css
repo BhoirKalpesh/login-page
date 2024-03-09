@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(159, 179, 197);
+    
+}
+
+.main {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(1, 0, 0, 0.2);
+}
+.login{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 40px 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.login .login-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+
+.login input{
+    border: none;
+    background-color: rgb(235, 237, 241);
+    height: 30px;
+    width: 350px;
+    outline:none;
+    transition: outline 0.2s ease-in;
+    
+    
+}
+
+.login input:focus {
+    outline:2px solid blue
+}
+
+.forgetpassword{
+    font-size: 14px;
+    color: rgb(91, 89, 85);
+    margin-top: 10px;
+}
+
+.login button{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(194, 185, 13);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.login input:hover {
+    background-color: rgb(220, 234, 234);
+    
+}
+
+.signup{
+    width: 45%;
+    background-color: rgb(23, 124, 212);
+    border-radius: 75px 15px 15px 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.signup .heading {
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.signup button {
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
